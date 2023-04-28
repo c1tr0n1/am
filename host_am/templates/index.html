@@ -3,64 +3,127 @@
     <head>
         <title>bla</title>
     </head>
-
     <body>
         <h1>found {{ entries_amount }}  products...</h1>
-
         <table class="zui-table">
             <thead>
                 <tr>
                     <th>Index</th>
                     <th>Name</th>
-                    <th>Description</th>
-                    <th>Rating</th>
                     <th>Price</th>
-                    <th>Link</th>
                     <th>Time</th>
+                    <th>Rating</th>
+                    <th>Link</th>
+                    <th>Description</th>                    
                 </tr>
             </thead>
             <tbody>
-
                 {% for entry in entries %}               
                 <tr>
                     <td>{{ loop.index }}</td> 
                     <td>{{ entry.name }}</td> 
-                    <td>{{ entry.desc }}</td> 
-                    <td>{{ entry.rating }}</td> 
-                    <td>{{ entry.price }}</td> 
-                    <td>{{ entry.link }}</td> 
+                    <td>{{ entry.price[0].price }}</td> 
                     <td>{{ entry.time }}</td> 
+                    <td>{{ entry.rating }}</td>        
+                    <td>{{ entry.link }}</td> 
+                    <td>{{ entry.desc }}</td>     
+                      
+                    {% for pprice in entry.price[1:] %}                        
+                    {% set before_price_index = loop.index - 1 | int %}
+                    {% set before_price_float = entry.price[before_price_index].price | float %}
+                    {% set current_price_float = pprice.price | float %}
+                    {% set change_percentage = 100 - (current_price_float/before_price_float) * 100 | float %}
+
+                    {% if before_price_float < current_price_float %}
+                        <tr>
+                            <td align="right" colspan="1" class="up_plus_1">Updated: </td>
+                            <td align="left" colspan="1" class="up_plus_1"></td>
+                            <td align="left" colspan="1" class="up_plus_2">{{ pprice.price }} (+{{ "%.2f" | format(change_percentage)}}%)</td>
+                            <td align="left" colspan="4" class="up_plus_2">{{ pprice.date }}</td>
+                        </tr>
+                    {% elif before_price_float > current_price_float %}
+                        <tr>
+                            <td align="right" colspan="1" class="up_min_1">Updated: </td>
+                            <td align="left" colspan="1" class="up_min_1"></td>
+                            <td align="left" colspan="1" class="up_min_2">{{ pprice.price }} (-{{ "%.2f" | format(change_percentage)}}%)</td>
+                            <td align="left" colspan="4" class="up_min_2">{{ pprice.date }}</td>
+                        </tr> 
+                    {% else %}                    
+                        <tr>
+                            <td align="right" colspan="1" class="up_same_1">Updated: </td>
+                            <td align="left" colspan="1" class="up_same_1"></td>
+                            <td align="left" colspan="1" class="up_same_2">{{ pprice.price }} ({{ "%.2f" | format(change_percentage)}}%)</td>
+                            <td align="left" colspan="4" class="up_same_2">{{ pprice.date }}</td>
+                        </tr> 
+                    {% endif %}
+                    {% endfor %} 
                 </tr>                
                 {% endfor %}        
-
             </tbody>
         </table>
     </body>
 
     <style lang="css">
-    .zui-table {
-        width: 100%;
-        border: solid 1px #DDEEEE;
-        border-collapse: collapse;
-        border-spacing: 0;
-        font: normal 13px Arial, sans-serif;
-    }
-    tr:nth-child(even) {
-    background-color: #D6EEEE;
-    }
-    .zui-table thead th {
-        background-color: #DDEFEF;
-        border: solid 1px #DDEEEE;
-        color: #336B6B;
-        padding: 10px;
-        text-align: left;
-        text-shadow: 1px 1px 1px #fff;
-    }
-    .zui-table tbody td {
-        border: solid 1px #DDEEEE;
-        color: #333;
-        padding: 10px;
-        text-shadow: 1px 1px 1px #fff;
-    }
+        .up_plus_1 {
+            font-size: 10px; 
+            background-color: #b5ffa0; 
+            padding: 0.1em 0.1rem 0.1rem 1rem !important; 
+            border: 1px solid rgb(211, 211, 211);
+        }
+        .up_plus_2 {
+            font-size: 10px; 
+            background-color: #b5ffa0; 
+            padding: 0.1em 0.1rem 0.1rem 0.5rem !important;  
+            border: 1px solid rgb(211, 211, 211);
+        }
+        .up_min_1 {
+            font-size: 10px; 
+            background-color: rgb(255, 160, 160, 0.8); 
+            padding: 0.1em 0.1rem 0.1rem 1rem !important; 
+            border: 1px solid rgb(211, 211, 211);
+        }
+        .up_min_2 {
+            font-size: 10px; 
+            background-color: rgb(255, 160, 160, 0.8); 
+            padding: 0.1em 0.1rem 0.1rem 0.5rem !important; 
+            border: 1px solid rgb(211, 211, 211);
+        }
+        .up_same_1 {
+            font-size: 10px; 
+            background-color: rgb(245, 255, 160, 1); 
+            padding: 0.1em 0.1rem 0.1rem 1rem !important; 
+            border: 1px solid rgb(211, 211, 211);
+        }
+        .up_same_2 {
+            font-size: 10px; 
+            background-color: rgb(245, 255, 160, 1); 
+            padding: 0.1em 0.1rem 0.1rem 0.5rem !important; 
+            border: 1px solid rgb(211, 211, 211);
+        }
+
+        .zui-table {
+            width: 100%;
+            border: solid 1px #DDEEEE;
+            border-collapse: collapse;
+            border-spacing: 0;
+            font: normal 13px Arial, sans-serif;
+        }
+        tr:nth-child(even) {
+        background-color: #D6EEEE;
+        }
+        .zui-table thead th {
+            background-color: #DDEFEF;
+            border: solid 1px #DDEEEE;
+            color: #336B6B;
+            padding: 10px;
+            text-align: left;
+            text-shadow: 1px 1px 1px #fff;
+        }
+        .zui-table tbody td {
+            border: solid 1px #DDEEEE;
+            color: #333;
+            padding: 10px;
+            text-shadow: 1px 1px 1px #fff;
+        }
     </style>
 </html>

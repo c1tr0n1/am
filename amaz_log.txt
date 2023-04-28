@@ -1,0 +1,393 @@
+0
+2.56.119.93:5074
+/Protector-Extension-Outlets-Extender-Compact/dp/B09Y5HT6HR
+1
+185.199.229.156:7492
+/Hp-Ac-Adapter-Output-Power/dp/B01BK2PFVK
+3
+185.199.231.45:8382
+/Compatible-Respironics-Printers-Marshall-Replacement/dp/B0B51G25P9
+4
+188.74.210.207:6286
+/Kensington-Lightning-Connector-Cabinet-K67864WWA/dp/B00JACMI4K
+2
+185.199.228.220:7300
+/KSOPUERT-Female-Transmission-Pigtail-Repair/dp/B0B74N6WJP
+5
+188.74.183.10:8279
+/Garmin-0101277000-Adapter-Cable/dp/B07C9GYYS3
+7
+45.155.68.129:8133
+/Partx-Navigation-Waterproof-Compatible-DNX6190HD/dp/B08XQHVM2S
+6
+188.74.210.21:6100
+/Vertical-Adapter-Degrees-Extender-Connector/dp/B0921N1WWW
+{'price': '', 'date': ''}
+{'price': '', 'date': ''}
+{'price': '', 'date': ''}
+{'price': '', 'date': ''}
+{'price': '', 'date': ''}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'matched': 1, 'modified': 1}
+{'matched': 1, 'modified': 1}
+{'matched': 1, 'modified': 1}
+{'matched': 1, 'modified': 1}
+{'matched': 1, 'modified': 1}
+{'price': 9.99, 'date': '2023-04-28 19:47:34.035311'}
+{'matched': 1, 'modified': 1}
+{'price': 78.44, 'date': '2023-04-28 19:47:34.179645'}
+{'matched': 1, 'modified': 1}
+
+
+7
+45.155.68.129:8133
+/POWER-Opove-G3-Pro-Intelitopia/dp/B00E9JJKI6
+
+
+5
+188.74.183.10:8279
+/Immuson-Thermal-Laminating-Pouches-Thickness/dp/B07CWN357B
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+1
+185.199.229.156:7492
+/Certified-Veetone-Delivery-Cigarette-Lightning/dp/B095Z45WWP
+
+
+3
+185.199.231.45:8382
+/DKARDU-Connector-Extension-Charger-Arduino/dp/B09WTVHB8B
+{'price': '', 'date': ''}
+
+
+0
+2.56.119.93:5074
+/Wireless-Charger-RUI-MAI-LAI/dp/B09WLQKWNR
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+2
+185.199.228.220:7300
+/DGZZI-12Inch-Sleeved-Adapter-Connector/dp/B08B32WMZ9
+
+
+6
+188.74.210.21:6100
+/Boda-USB-Compatible-BRIGHTWORLD-DC3-5/dp/B09TYVBPWQ
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+0
+2.56.119.93:5074
+/FYY-Electronic-Organizer-Accessories-Waterproof/dp/B0924H4XB9
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+4
+188.74.210.207:6286
+/PowerCore-Fusion-Supply-Adapter-Charger/dp/B0BBB5GB5X
+
+
+5
+188.74.183.10:8279
+/SlimQ-%F0%9D%90%92%F0%9D%90%A5%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%90-Magnetic-Charging-Compatible/dp/B0BKLBNRDX
+{'price': '', 'date': ''}
+
+
+2
+185.199.228.220:7300
+/Replacement-Charging-Headsets-Headphones-Bluetooth/dp/B09ZVP1QFZ
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+7
+45.155.68.129:8133
+/Club3D-CAC-1373-Speed-Cable-Male-Male/dp/B07VK7JWH5
+
+
+1
+185.199.229.156:7492
+/J2011-03-US-J2011-02-US-J2011-01-US-HDP40-145248W-1-Replacement/dp/B0BJZGF2BK
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+3
+185.199.231.45:8382
+/Charging-Connector-5-5x2-5-4-0x1-35-3-5x1-35/dp/B0B42J9WDT
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+4
+188.74.210.207:6286
+/Garmin-010-12842-00-Mount-Quick-Release-Ultra/dp/B07XV2VQTJ
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+7
+45.155.68.129:8133
+/BOEDCN-Compatible-Ribbon-Replacement-Printer/dp/B09VZBZ2BZ
+
+
+2
+185.199.228.220:7300
+/Charger-Cigarette-Lighter-Lightning-Charging/dp/B0B6Z3KZRQ
+{'price': '', 'date': ''}
+
+
+0
+2.56.119.93:5074
+/Charging-Station-Charger-Compatible-iPhone13/dp/B0B87DKYMD
+{'matched': 1, 'modified': 1}
+
+
+6
+188.74.210.21:6100
+/MPRT-Laminating-Laminate-Laminator-500-Pack/dp/B0B77BPMRM
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+3
+185.199.231.45:8382
+/SafeAMP-Compatible-Streamlight-Rechargeable-Flashlights/dp/B0BJMX2N36
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+5
+188.74.183.10:8279
+/Tripp-Lite-Certified-Lightning-Charge/dp/B00U7ZTFKO
+
+
+1
+185.199.229.156:7492
+/Magnetic-Compatible-Mac-Book-Charging-Replacement/dp/B09TB1RDFM
+{'price': '', 'date': ''}
+
+
+3
+185.199.231.45:8382
+/TC70-TC75-Cable-Replaces-CBL-TC7X-USB1-01/dp/B08TB67CMN
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+4
+188.74.210.207:6286
+/StarTech-com-16ft-Certified-DisplayPort-Cable/dp/B09GRM78CL
+
+
+0
+2.56.119.93:5074
+/Wireless-Charger-ANYLINCON-Station-Airpods/dp/B09Q2BCDHD
+
+
+2
+185.199.228.220:7300
+/Replacement-Charger-Charging-Compatible-Olufsen/dp/B07WPDSRR4
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+
+
+6
+188.74.210.21:6100
+/Oculus-Quest-Link-Cable-VR/dp/B09V57NTQC
+{'matched': 1, 'modified': 1}
+
+
+7
+45.155.68.129:8133
+/Charge-Charger-Socket-Switch-Motorcycle/dp/B07ZRQQFTF
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': 128.88, 'date': '2023-04-28 19:47:52.669643'}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+4
+188.74.210.207:6286
+/Charger-Universal-Charging-Regulator-Navigator/dp/B08LNC7VJS
+
+
+3
+185.199.231.45:8382
+/Post-Power-Distribution-Block-Pair/dp/B07THLYYH3
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+6
+188.74.210.21:6100
+/SING-LTD-Dashboard-Antiskid-27x15x0-2cm/dp/B07Q8GHFF8
+
+
+0
+2.56.119.93:5074
+/Management-Organizer-Electronics-Accessories-Organizing/dp/B0B1J7N2F2
+
+
+7
+45.155.68.129:8133
+/rolls-PB23-Channel-Phantom-Adapter/dp/B0002BG2PO
+
+
+2
+185.199.228.220:7300
+/Charger-Adapter-Compatible-iPhone-Galaxy/dp/B0B9GS91HZ
+
+
+1
+185.199.229.156:7492
+/C4823a-Printhead-Cleaner-Product-Category/dp/B00MX7U55S
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'matched': 1, 'modified': 1}
+
+
+3
+185.199.231.45:8382
+/Charger-Cancelling-Bluetooth-Headphones-Speakers/dp/B08KDML9NQ
+
+
+5
+188.74.183.10:8279
+/StarTech-com-USB-HDMI-Cable-Computer/dp/B01LP5FRG0
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+6
+188.74.210.21:6100
+/Thermal-Laminating-Pouches-Plastic-Business/dp/B09NBFDRQF
+
+
+0
+2.56.119.93:5074
+/Duttek-Charging-Splitter-USB2-0-Support/dp/B0B154MV3T
+{'price': '', 'date': ''}
+
+
+1
+185.199.229.156:7492
+/Vanco-EV4K2006-Evolution-HDMI-Extender/dp/B07G1LMVFL
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+4
+188.74.210.207:6286
+/9527-Product-Thermal-Laminating-Pouches/dp/B09T3BJQM9
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+7
+45.155.68.129:8133
+/Micro-Cable-12inch-22AWG-Pigtail/dp/B09DKYPCXK
+
+
+5
+188.74.183.10:8279
+/Charger-Google-Pixel-Supply-Adapter/dp/B08R584LLC
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+1
+185.199.229.156:7492
+/Sanrio-Protector-Phones-Accessories-Lightning/dp/B07Y7PPCWC
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+4
+188.74.210.207:6286
+/CERRXIAN-Degree-Charging-K501UX-5525-100W/dp/B08FRC39F4
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+2
+185.199.228.220:7300
+/Bluetooth-Earphones-Speakers-Replacement-Endurance/dp/B09BYXZH6K
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+0
+2.56.119.93:5074
+/GOALSEN-Wireless-High-Density-Bluetooth-Headphones/dp/B09YHX6CNK
+
+
+6
+188.74.210.21:6100
+/Laminating-Dry-Erase-Compatible-Laminators-Laminated/dp/B088LMHMM5
+{'price': '', 'date': ''}
+
+
+3
+185.199.231.45:8382
+/Charger-Spigen-Charging-Included-Foldable/dp/B08PSSLMLQ
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+{'price': '', 'date': ''}
+{'matched': 1, 'modified': 1}
+
+
+1
+185.199.229.156:7492
+/RM2-1256-Fuser-Kit-RM2-1256-AP-Laserjet-Replacement-L0H24-67901/dp/B0BNXFZLWN
+{'price': 6.99, 'date': '2023-04-28 19:48:07.863858'}
+{'matched': 1, 'modified': 1}
+
+
+4
+188.74.210.207:6286
+/SPARKING-2-1mm-Charger-Power-Supply/dp/B0746GPQH3
