@@ -32,7 +32,11 @@
                     {% set before_price_index = loop.index - 1 | int %}
                     {% set before_price_float = entry.price[before_price_index].price | float %}
                     {% set current_price_float = pprice.price | float %}
+                    {% if before_price_float != 0 %}
                     {% set change_percentage = 100 - (current_price_float/before_price_float) * 100 | float %}
+                    {% else %}
+                    {% set change_percentage = 100 | float %}
+                    {% endif %}
 
                     {% if before_price_float < current_price_float %}
                         <tr>

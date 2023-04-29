@@ -13,6 +13,8 @@ from time import strftime
 import pymongo
 import sys
 
+import urllib.parse
+
 timeout_sec = 8
 
 CONNECTION_STRING = "mongodb+srv://br4pk33t:MJITz7Jc6o5LzwN2@cluster0.fdzzwnj.mongodb.net/?retryWrites=true&w=majority"
@@ -40,7 +42,7 @@ for product in my_collection.find():
 
 print("starting scraping ....")
 
-for current_page in range(1,100):
+for current_page in range(1,50):
 
     try:
         print("\ncurrent page: " + str(current_page))
@@ -157,6 +159,9 @@ for current_page in range(1,100):
 
             if not current_article["name"] == "" and not current_article["rating"] == "" and not price_obj["price"] == "" and not current_article["link"] == "" and not current_article["link"] in product_links:                   
                 
+                #decoding
+                current_article["link"] = urllib.parse.unquote(current_article["link"])
+
                 current_article["price"] = [price_obj]
                 print("current_article")
                 print(current_article)
