@@ -22,7 +22,6 @@ CONNECTION_STRING = "mongodb+srv://br4pk33t:MJITz7Jc6o5LzwN2@cluster0.fdzzwnj.mo
 #save local
 f = open("amaz_res.txt","w", encoding="utf-8")
 
-
 try:
   client = pymongo.MongoClient(CONNECTION_STRING)
 
@@ -57,12 +56,7 @@ for current_page in range(1,50):
         user_agents = user_agent_rotator.get_user_agents()
         # Get Random User Agent String.
         user_agent = user_agent_rotator.get_random_user_agent()
-        print("user_agent")
-        print(user_agent)
 
-
-
-        # headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299'}
         headers = {
             'dnt': '1',
             'upgrade-insecure-requests': '1',
@@ -80,10 +74,6 @@ for current_page in range(1,50):
         soup = BeautifulSoup(res_text, 'html.parser')
         site_arr = []
 
-
-
-
-
         for i in soup.find_all('div',attrs={'class':'a-section a-spacing-small a-spacing-top-small'}):
 
             current_article = {
@@ -98,7 +88,6 @@ for current_page in range(1,50):
             now = datetime.datetime.now()
             current_article["time"] = str(now)
 
-
             for i2 in i.find_all('span',attrs={'class':'a-size-medium a-color-base a-text-normal'}):
                 current_article["name"] = i2.text
 
@@ -111,13 +100,9 @@ for current_page in range(1,50):
             for i4 in i.find_all('span',attrs={'class':'a-price-fraction'}):
                 price_str += i4.text
 
-
-
-
             for i5 in i.find_all('span',attrs={'class':'a-icon-alt'}):
                 rating = i5.text.split(" ")[0]
                 current_article["rating"] = rating
-
 
             for i6 in i.find_all('a',attrs={'class':'a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal'}):
                 link = i6['href']
@@ -133,58 +118,35 @@ for current_page in range(1,50):
 
                 current_article["link"] = link_split
 
-
-
-
-
-
             price_obj = {
                 "price" : "",
                 "date" : ""
             }
 
-            #float throws err if no price available
-            #try err so only kills current loop
             try:
                 price_obj["price"] = float(price_str)
                 price_obj["date"] = str(now)
-                print("Is float")
             except Exception as err_float:
-                print("Not a float")
+                print("err_float")
                 print(err_float)
-
-            print("price_obj")
-            print(price_obj)
-
 
             if not current_article["name"] == "" and not current_article["rating"] == "" and not price_obj["price"] == "" and not current_article["link"] == "" and not current_article["link"] in product_links:                   
                 
                 #decoding
                 current_article["link"] = urllib.parse.unquote(current_article["link"])
-
                 current_article["price"] = [price_obj]
-                print("current_article")
-                print(current_article)
                 site_arr += [current_article]
                 product_links += [current_article["link"]]
 
-
-        print("finish ... printing array ....")
-
         for article in site_arr:
-            # local
-            # print(article)
             f.write(article["link"] + '\n')
             f.flush()
-
-        print("writing to db....")
 
         try: 
             result = my_collection.insert_many(site_arr)
 
         except pymongo.errors.OperationFailure:
             print("An authentication error was received. Are you sure your database user is authorized to perform write operations?")
-            sys.exit(1)
         else:
             inserted_count = len(result.inserted_ids)
             print("I inserted %x documents." %(inserted_count))
